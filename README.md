@@ -5,6 +5,7 @@ Data Accelerator project mapping air pollution and population.
 
 # PollData1: Pollution Conc. Maps
 
+From https://uk-air.defra.gov.uk/data/pcm-data
 
 -- 1x1 km gridded pollutant concentrations of the whole UK.
 -- Yearly data files for 7 pollutants: PM2.5, PM10, NO2 + NOx, CO, Ozone, SO2, Benzene
@@ -31,6 +32,7 @@ Data Accelerator project mapping air pollution and population.
 
 # PollData2: Air pollution monitoring stations (point measurements)
 
+From http://davidcarslaw.github.io/openair/
 
 -- 148 sites around the UK with continuous measurement coverage
 -- Time series of hourly concentrations of pollutants
@@ -46,6 +48,9 @@ Data Accelerator project mapping air pollution and population.
 
 
 # PollData3: NAEI Point Source Maps
+
+From  http://naei.beis.gov.uk/data/map-large-source
+
 -- Data showing grid location (eastings and northings) and emission volume form large pollution sources.
 -- Various pollutants depending on the source.
 -- 2016 
@@ -70,6 +75,9 @@ Data Accelerator project mapping air pollution and population.
 
 
 # PollData4: NAEI Area Source Maps
+
+From http://naei.beis.gov.uk/data/map-uk-das
+
 -- Data showing emission volume by pollutant on UK map
 -- GIS map.
 
@@ -80,6 +88,9 @@ Data Accelerator project mapping air pollution and population.
 
 
 # RecepData1: Mid Year Population Estimates
+
+From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+
 
 
 -- ONS estimate of UK population broken down by country and administrative area (Local Authority) and broken down by age and gender.
@@ -101,6 +112,8 @@ Data Accelerator project mapping air pollution and population.
 
 # RecepData2: Get Info About Schools
 
+From https://get-information-schools.service.gov.uk/?SelectedTab=Establishments
+Specify: All establishments and select Open and Closed
 
 -- Data set of all schools and other children's centres in the UK
 -- Closed and open
@@ -120,6 +133,7 @@ Data Accelerator project mapping air pollution and population.
 
 # RecepData3: NHS Organisation Data 
 
+from https://digital.nhs.uk/services/organisation-data-service
 
 -- Data sets showing locations of health organisations (e.g. Care homes, GPs)
 
@@ -129,5 +143,6 @@ Data Accelerator project mapping air pollution and population.
 
 # RecepData4: English Indices of Multiple Deprivation
 
+From http://opendatacommunities.org/data/societal-wellbeing/imd/indicesbyla
 
 -- Data showing relative economic deprivation in UK
