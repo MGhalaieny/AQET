@@ -6,11 +6,7 @@ library(ggplot2)
 library(dplyr)
 library(readxl)
 
-#Load libraries for Rshiny
 
-library(shiny)
-library(leaflet)
-library(leaflet.extras)
 
 #load data from excel sheet into data frame - non clean
 Pm25_Point_source_df_full <- read_xlsx( "~/AQET/raw_data/NAEI_PM25PointsSources_2016.xlsx", sheet = 2)
