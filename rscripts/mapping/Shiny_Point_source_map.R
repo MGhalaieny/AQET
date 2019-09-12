@@ -46,7 +46,7 @@ server <- function(input, output, session) {
     leaflet(dat_SP_LL) %>%
       setView(lng = 2, lat = 54, zoom = 2)  %>% #setting the view over ~ center of North America
       addTiles() %>%
-      addCircles(data = dat_SP_LL, lat = ~ Lat, lng = ~ Long, weight = 1, radius = ~sqrt(Emission)*25000, popup = ~as.character(Emission), label = ~as.character(paste0("Emission (Tonnes): ", sep = " ", Emission)), color = ~pal(Emission), fillOpacity = 0.5)
+      addCircles(data = dat_SP_LL, lat = ~ Lat, lng = ~ Long, weight = 1, radius = 0.01, popup = ~as.character(Emission), label = ~as.character(paste0("Emission (Tonnes): ", sep = " ", Emission)), color = ~pal(Emission), fillOpacity = 0.5)
   })
 
   #next we use the observe function to make the checkboxes dynamic. If you leave this part out you will see that the checkboxes, when clicked on the first time, display our filters...But if you then uncheck them they stay on. So we need to tell the server to update the map when the checkboxes are unchecked.
